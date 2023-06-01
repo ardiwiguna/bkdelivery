@@ -1,0 +1,69 @@
+@font-face {
+  font-family: 'flame-bk';
+  src: url('./fonts/Flame-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'flame-bk';
+  src: url('./fonts/Flame-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'flame-bk-sans';
+  src: url('./fonts/FlameSans-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+body {
+  margin: 0;
+  font-family: 'flame-bk', serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.BKNavbar {
+  background-color: #2d2d2d;
+  .logo-wrapper {
+    width: 90px;
+    height: 70px;
+  }
+  .logo {
+    position: absolute;
+    margin-top: 10px;
+    margin-right: 35px;
+    top: 0;
+    left: 0;
+    z-index: 999;
+  }
+  .subtitle {
+    display: block;
+    font-size: 13px;
+    color: #faaf18;
+  }
+  .title {
+    font-size: 25px;
+    color: #fff;
+    position: relative;
+    top: -7px;
+    font-weight: bold;
+  }
+}
+
+.our-menu {
+  margin-top: 10px;
+  h2 {
+    color: #8b542f;
+    font-weight: normal
+  }
+}
