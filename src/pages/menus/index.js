@@ -1,68 +1,8 @@
 import React from 'react'
+import BKMenu from "../../assets/data/bkmenucard.json"
 
 const Menu = () => {
-    const cardData = [
-        {
-            title: 'Card 1',
-            description: 'This is card 1',
-            image: 'image1.jpg',
-        },
-        {
-            title: 'Card 2',
-            description: 'This is card 2',
-            image: 'image2.jpg',
-        },
-        {
-            title: 'Card 2',
-            description: 'This is card 2',
-            image: 'image2.jpg',
-        },
-        {
-            title: 'Card 2',
-            description: 'This is card 2',
-            image: 'image2.jpg',
-        },
-        {
-            title: 'Card 2',
-            description: 'This is card 2',
-            image: 'image2.jpg',
-        },
-        {
-            title: 'Card 2',
-            description: 'This is card 2',
-            image: 'image2.jpg',
-        },
-        {
-            title: 'Card 2',
-            description: 'This is card 2',
-            image: 'image2.jpg',
-        },
-        {
-            title: 'Card 2',
-            description: 'This is card 2',
-            image: 'image2.jpg',
-        },
-        {
-            title: 'Card 2',
-            description: 'This is card 2',
-            image: 'image2.jpg',
-        },
-        {
-            title: 'Card 2',
-            description: 'This is card 2',
-            image: 'image2.jpg',
-        },
-        {
-            title: 'Card 2',
-            description: 'This is card 2',
-            image: 'image2.jpg',
-        },
-        {
-            title: 'Card 2',
-            description: 'This is card 2',
-            image: 'image2.jpg',
-        },
-    ];
+    
     return (
         <div className="container mt-3">
             <div className="text-center our-menu">
@@ -71,13 +11,13 @@ const Menu = () => {
                 </h2>
             </div>
             <div className="row">
-                {cardData.map((card, index) => (
+                {BKMenu.map((card, index) => (
                     <div className="col-md-4 mb-4" key={index}>
-                        <div className="card">
-                            <img src={card.image} className="card-img-top" alt={card.title} />
-                            <div className="card-body">
-                                <h5 className="card-title">{card.title}</h5>
-                                <p className="card-text">{card.description}</p>
+                        <div class="card h-100">
+                            <img src={card.path} alt={card.name} class="card-image" />
+                            <div class="card-content d-flex">
+                                <p class="card-text w-50 text-uppercase menu-title px-2">{card.name}</p>
+                                <button class="card-button w-50">Order</button>
                             </div>
                         </div>
                     </div>

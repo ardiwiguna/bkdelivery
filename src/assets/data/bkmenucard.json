@@ -1,0 +1,63 @@
+[
+    {
+      "id": 1,
+      "path": "/assets/img//menu/crispy-chicken.jpg",
+      "name": "King's Chicken [Rasa Baru]"
+      
+    },
+    {
+      "id": 2,
+      "path": "/assets/img//menu/special-menu.jpg",
+      "name": "Special Menu"
+    },
+    {
+      "id": 3,
+      "path": "/assets/img//menu/tropical-whooper(limited).jpg",
+      "name": "Tropical Whooper [Limited Time]"
+    },
+    {
+      "id": 4,
+      "path": "/assets/img//menu/bk-app-exclusive.jpg",
+      "name": "BK App Exclusive"
+    },
+    {
+      "id": 5,
+      "path": "/assets/img//menu/cheese-burger-fav.jpg",
+      "name": "Cheese Burger Favorit"
+    },
+    {
+      "id": 6,
+      "path": "/assets/img//menu/cheese-whooper.jpg",
+      "name": "Cheese Whooper"
+    },
+    {
+      "id": 7,
+      "path": "/assets/img//menu/gold-collection.jpg",
+      "name": "Gold Collection"
+    },
+    {
+      "id": 8,
+      "path": "/assets/img//menu/kids-meal.jpg",
+      "name": "Kids Meal"
+    },
+    {
+      "id": 9,
+      "path": "/assets/img//menu/side-dessert.jpg",
+      "name": "Side & Dessert"
+    },
+    {
+      "id": 10,
+      "path": "/assets/img//menu/beverages.jpg",
+      "name": "Beverages"
+    },
+    {
+      "id": 11,
+      "path": "/assets/img//menu/kingdeals.jpg",
+      "name": "King Deals"
+    },
+    {
+      "id": 12,
+      "path": "/assets/img//menu/kupon-mei.jpg",
+      "name": "Kupon Mei"
+    }
+  ]

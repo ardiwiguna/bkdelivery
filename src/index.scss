@@ -1,20 +1,20 @@
 @font-face {
   font-family: 'flame-bk';
-  src: url('./fonts/Flame-Regular.woff') format('woff');
+  src: url('./assets/fonts/Flame-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'flame-bk';
-  src: url('./fonts/Flame-Bold.woff') format('woff');
+  src: url('./assets/fonts/Flame-Bold.woff') format('woff');
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'flame-bk-sans';
-  src: url('./fonts/FlameSans-Regular.woff') format('woff');
+  src: url('./assets/fonts/FlameSans-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -34,6 +34,7 @@ code {
 
 .BKNavbar {
   background-color: #2d2d2d;
+  height: 80px;
   .logo-wrapper {
     width: 90px;
     height: 70px;
@@ -67,3 +68,76 @@ code {
     font-weight: normal
   }
 }
+
+.card {
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.card-image {
+  width: 100%;
+  height: auto;
+}
+
+.card-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.card-text {
+  flex-grow: 1;
+}
+
+.card-button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.cart {
+  background-color: #ed7801;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.card {
+  box-shadow: 2px 2px 15px -4px #6b6b6b;
+  .menu-title {
+    color: #8b542f;
+    margin-bottom: 0;
+  }
+  .card-button {
+    background-color: #ed7801;
+    color: white;
+  }
+}
+.breadcrumb-item {
+  color: #919191 !important;
+  font-size: 12px;
+  a {
+    color: #919191 !important;
+    text-decoration: none;
+    &:hover {
+      color: white !important;
+    }
+  }
+}
+.breadcrumb .breadcrumb-item + .breadcrumb-item:before {
+  content: "|";
+  padding: 0 5px;
+  color: #aaa;
+}
+
+
+
+
+
+

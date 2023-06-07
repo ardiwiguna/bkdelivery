@@ -1,6 +1,7 @@
 import React from "react";
 import BKHeader from "./component/navbar"
 import BKSlider from "./component/slider"
+import BKFooter from "./component/footer"
 import BKMenu from "./pages/menus"
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
             <BKHeader />
             <BKSlider />
             <BKMenu />
+            <BKFooter />
         </>
     );
 }
